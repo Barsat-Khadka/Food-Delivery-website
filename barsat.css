@@ -1,0 +1,186 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+
+}
+
+#logo {
+    margin: 1px;
+    margin-bottom: 8px;
+
+
+}
+
+#logo img {
+    margin: 20px;
+    border-radius: 50%;
+    height: 100px;
+
+}
+
+ul {
+    display: flex;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1 rem;
+    position: relative;
+    bottom: 10px
+}
+
+#navbar ul li a {
+    font-size: large;
+    display: block;
+    padding: 4px 7px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#navbar {
+
+    margin-top: 0px;
+    content: "";
+    background-color: grey;
+    position: relative;
+    height: 15%;
+    width: 100%;
+    opacity: 0.89;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    
+
+
+}
+#navbar ul li a:hover{
+    color: black;
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 180px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    background: url('pexels-aleksandar-pasaric-1415734.jpg');
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.primary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+#home h1{
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+}
+.secondary{
+    font-size: 2.8rem;
+    text-align: center;
+}
+.btn{
+    padding: 6px 18px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    border-radius: 2px;
+    margin: 17px;
+    font-size: 1.5rem;
+}
+.btn:hover{
+    color: black;
+    cursor: pointer;
+
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+.box img{
+    height: 200px;
+    
+    margin: auto;
+    border: 5px solid red;
+}
+.box{
+    padding: 34px;
+    background-color: antiquewhite;
+}
+.box:hover{
+    cursor: pointer;
+
+    
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+}
+#clients img{
+    height: 124px;
+    padding: 45px;
+    
+}
+#clients::before{
+    background: url("pngtree-blue-ink-large-size-background-image_124631.jpg");
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+#Contact{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+
+}
+
+#Contact{
+    position: relative;
+    background-color: burlywood;
+    z-index: -1;
+    font-size: 1.1rem;
+    
+}
+#Contact textarea{
+    width: 300px;
+    padding: 0.5rem;
+}
+
+#Contact form{
+    font-display: white;
+    width: 40px;
+    border-radius: 2px;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: small;
+    padding: 9px 9px 9px 9px;
+}
